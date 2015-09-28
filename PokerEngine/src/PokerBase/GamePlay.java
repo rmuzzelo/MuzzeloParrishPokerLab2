@@ -24,10 +24,10 @@ public class GamePlay {
 				Hand h = new Hand(d);
 				hands.add(h);
 			}
-		for (int i=0; i<3; i++ ){
+		for (int i=0; i<3; i++){
 			hands.get(i).EvalHand();
 		}
-		compare(hands);
+		
 	}
 }
 		
